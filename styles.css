@@ -1,0 +1,38 @@
+body{font-family: Roboto;}
+.top, .footer{background-color: #1F2937;}
+.hero_main{color: #F9FAF8;
+font-size: 48px;
+font-weight: 900;
+}
+.hero_second, .link{color: #E5E7EB;
+font-size: 24px;}
+.logo{color: #F9FAF8;
+    font-size: 24px;
+}
+
+button, .call{background-color: #3882F6;}
+.info_header{color: #1F2937;
+font-size: 36px;
+font-weight: 900;}
+
+.quote{background-color: #E5E7EB;
+    color: #1F2937;
+font-size: 36px;
+font-weight: light;
+font-style: italic
+;}
+
+/*flex*/
+body, .top{display: flex;
+flex-direction: column}
+
+.header, .hero, .links, .call, .images{display: flex;
+justify-content: space-between;}
+
+.footer{color: #F9FAF8;
+text-align: center;
+padding:10px}
+
+
+
+
